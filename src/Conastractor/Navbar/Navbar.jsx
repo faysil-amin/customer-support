@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div className="py-5  bg-white shadow">
       <Container>
-        <div className="navbar inter">
-          <div className="navbar-start">
+        <div className="flex items-center justify-between inter">
+          <div>
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -43,21 +43,23 @@ const Navbar = () => {
             </div>
             <a className="btn btn-ghost text-xl">CS — Ticket System</a>
           </div>
-          <div className=" hidden lg:flex">
-            <ul className="flex items-center gap-6">
-              <li>Home</li>
-              <li>FAQ</li>
-              <li>Changelog</li>
-              <li>Blog</li>
-              <li>Download</li>
-              <li>Download</li>
-            </ul>
-          </div>
-          <div>
-            <a className="ml-8 bg-linear-to-tl from-[#632EE3] to-[#9F62F2] px-6 py-3 rounded-sm text-white text-xl">
-              {" "}
-              + New Ticket
-            </a>
+          <div className="flex items-center">
+            <div className=" hidden lg:flex">
+              <ul className="flex items-center gap-6">
+                <li>Home</li>
+                <li>FAQ</li>
+                <li>Changelog</li>
+                <li>Blog</li>
+                <li>Download</li>
+                <li>Download</li>
+              </ul>
+            </div>
+            <div>
+              <a className=" ml-8 bg-linear-to-tl from-[#632EE3] to-[#9F62F2] px-6 py-3 rounded-sm text-white text-xl">
+                {" "}
+                + New Ticket
+              </a>
+            </div>
           </div>
         </div>
       </Container>

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "User unable to login with correct credentials.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-12T10:23:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed",
+    "description": "Customer's payment is not processing.",
+    "customer": "Sarah Smith",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-01-13T09:12:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Email not received",
+    "description": "User is not receiving verification emails.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-01-14T14:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Slow website",
+    "description": "Website loading time is too high.",
+    "customer": "Emma Wilson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-01-16T08:30:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Profile picture upload error",
+    "description": "Users cannot upload profile pictures.",
+    "customer": "Chris Evans",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-01-17T11:15:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Order not showing",
+    "description": "Customer cannot see their recent order history.",
+    "customer": "Linda Park",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2025-01-18T12:45:00Z"
+  },
+  {
+    "id": 7,
+    "title": "App crashing",
+    "description": "Mobile app crashes after login.",
+    "customer": "Jason Lee",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-01-19T13:20:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Password reset not working",
+    "description": "Password reset link sends user to an error page.",
+    "customer": "Olivia Taylor",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-01-20T16:50:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Cart not updating",
+    "description": "Items are not updating in the shopping cart.",
+    "customer": "Robert Johnson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-01-21T18:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Notification delay",
+    "description": "Users receiving notifications 30 minutes late.",
+    "customer": "Sophia Martinez",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-01-22T09:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "File download error",
+    "description": "Download fails with server timeout.",
+    "customer": "David Miller",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-23T07:40:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Search not working",
+    "description": "Search results are not loading for any query.",
+    "customer": "Natalie Brooks",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-01-24T10:05:00Z"
+  }
+]

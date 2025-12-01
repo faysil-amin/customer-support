@@ -4,22 +4,17 @@ import Carts from "../Carts/Carts";
 import Textstates from "../Textstates/Textstates";
 import Resolve from "../Resolve/Resolve";
 
-const Containbox = ({
-  api,
-  setApi,
-  reachiv,
-  setReachiv,
-  resolve,
-  setResolve,
-}) => {
-  const customerJson = use(api);
-  console.log(resolve);
+const Containbox = ({ reachiv, setReachiv, resolve, setResolve, customer }) => {
+  const cusJson = use(customer);
+  const [customerJson, setCustomerJson] = useState(cusJson);
 
   const dataFunction = (p) => {
     const taskRemove = reachiv.filter((res) => res.id !== p.id);
     const resolveTask = customerJson.filter((res) => res.id === p.id);
-    setResolve(resolveTask);
+    setResolve([...resolve, resolveTask]);
     setReachiv(taskRemove);
+    const cardRemove = customerJson.filter((res) => res.id !== p.id);
+    setCustomerJson(cardRemove);
   };
   return (
     <div className="py-5">

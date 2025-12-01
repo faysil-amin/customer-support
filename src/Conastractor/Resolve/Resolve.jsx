@@ -8,7 +8,7 @@ const Resolve = ({ resolve }) => {
         Resolved Task
       </h1>
       {resolve.length === 0 ? (
-        <h1>No resolved tasks yet.</h1>
+        <h1>No Data</h1>
       ) : (
         resolve.map((res) => <Resolvecard res={res}></Resolvecard>)
       )}

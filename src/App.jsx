@@ -10,9 +10,7 @@ const customerApi = async () => {
   return api.json();
 };
 const customer = customerApi();
-
 function App() {
-  const [api, setApi] = useState(customer);
   const [reachiv, setReachiv] = useState([]);
   const [resolve, setResolve] = useState([]);
 
@@ -29,10 +27,9 @@ function App() {
           }
         >
           <Containbox
-            api={api}
+            customer={customer}
             reachiv={reachiv}
             setReachiv={setReachiv}
-            setApi={setApi}
             resolve={resolve}
             setResolve={setResolve}
           ></Containbox>
